@@ -29,14 +29,14 @@
         "id": "overpassql",
         "aliases": ["Overpass QL", "overpassQL", "Overpass Query Language"],
         "extensions": [".overpassql"],
-        "configuration": "./overpassql.language-configuration.json"
+        "configuration": "./language-configuration.json"
       }
     ],
     "grammars": [
       {
         "language": "overpassql",
         "scopeName": "source.overpassql",
-        "path": "./overpassql.tmGrammar.json"
+        "path": "./syntaxes/overpassql.tmLanguage.json"
       }
     ]
   }
